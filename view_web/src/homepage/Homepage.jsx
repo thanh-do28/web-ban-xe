@@ -1,10 +1,12 @@
 /*eslint-disable*/
-import Navbar from "../navbar/Navbar";
+import { Outlet } from "react-router-dom";
+import Navbar from "./navbar/Navbar";
 
 function Homepage() {
   return (
     <>
       <Navbar></Navbar>
+      <Outlet></Outlet>
     </>
   );
 }
